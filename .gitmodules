@@ -1,0 +1,9 @@
+[submodule "server"]
+	path = server
+	url = https://genu@github.com/genu/readplan-server
+[submodule "client"]
+	path = client
+	url = https://genu@github.com/genu/readplan-client
+[submodule "chrome-extension"]
+	path = chrome-extension
+	url = https://genu@github.com/genu/readplan-chrome-extension
