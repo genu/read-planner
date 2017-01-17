@@ -20,3 +20,17 @@ The server has the most preleminary work done so far for creating a proof of con
 
 **Note**:
 When cloning repo, make sure to pull in the submodules as well.
+
+**NOTE 2**:
+THe server won't actually run correctly locally since it depends on a valid AWS API key which I have not committed to the repo. To get it working, create a file `config/local.js` with the contents: 
+```
+module.exports = {
+  globals: {
+    aws: {
+      accessKey: 'YOUR AWS ACESSD KEY',
+      secretAccessKey: 'YOUR AWS SECRET KEY',
+      associateTag: 'YOUR AWS PRODUCT API AFFILIATE TAG'
+    }
+  }
+};
+```
